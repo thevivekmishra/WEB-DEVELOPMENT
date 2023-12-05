@@ -1,0 +1,30 @@
+.container{
+    background-color: aqua;
+    border:2px solid black;
+    /* height: 1000px; */
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap:15px;
+    
+}
+.box{
+    background-color: bisque;
+    border:1px solid black;
+    /* height: 100px;
+    width:100px;   */
+}
+#box1{
+    grid-area:1/1/1/4;
+    /* if you want to see changes in your output then 
+    comment the height and width of the box mentioned above */
+    background-color: yellow;
+  
+}
+#box8{
+   grid-column-start:1;
+   grid-column-end: 4;
+   grid-row-start: 4;
+   grid-row-end: 4;
+   background-color: yellow;
+}

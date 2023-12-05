@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    height:300px;
+    /* if we set the height then box will overflow when we 
+    increase the number of boxes */
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    /* we can see change by inspecting the output  */
+    /* here 2 column and 4 rows formed  */
+    /* if you want to give gap between rows and coloumn line
+    use gap attribute we can see change by inspecting */
+    gap: 15px;
+}
+.box{
+    background-color: aqua;
+    border:2px solid black;
+    /* height:100px; */
+    /* width:100px; */
+}
+#box1{ 
+  
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* this thing work when width is not set in above styles */
+}
+/* we can also span the rows  */
+#box2{
+    grid-row-start: 2;
+    grid-row-end: 6;
+ } 

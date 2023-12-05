@@ -1,0 +1,43 @@
+.container{
+    display:grid;
+    background-color: aqua;
+    border:2px solid black;
+   height: 1000px;
+    grid-template-rows: 50px 70px 300px 50px;
+    /* this show the height of each row that is header 
+    sidebar content footer*/
+    grid-template-columns:400px;
+    /* we need only one column  */
+
+    /* now we are going to use grid template area (gta) 
+    just give the short name to the boxes here and 
+    */
+
+    grid-template-areas: 
+    "head" 
+    "side" 
+    "cont" 
+    "foot" ;
+    /* if we have two column then we write names two times
+    ex. gta: "head head" "side side" "cont main"   so that the content
+    section divivded into two part*/
+}
+.box{
+    background-color: bisque;
+    border:1px solid black;
+    /* height: 100px;
+    width:100px;   */
+}
+
+#header{
+    grid-area:head;
+}
+#sidebar{
+    grid-area:side;
+}
+#content{
+    grid-area:cont;
+}
+#footer{
+    grid-area:foot;
+}

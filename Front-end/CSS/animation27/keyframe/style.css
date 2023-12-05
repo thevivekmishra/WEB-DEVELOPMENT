@@ -1,0 +1,44 @@
+.container{
+    height:150px;
+    width:500px;
+    display:flex;
+    background-color: yellow;
+    border:2px solid black;
+}
+.box{
+    height:149px;
+    width:100px;
+    border:1px solid black;
+    background-color:aqua;
+ 
+    animation-name:vivek;
+    animation-duration:3s;/*it complte dist.in 3sec*/
+    animation-iteration-count:infinite;/* 3 times show*/
+    animation-timing-function:ease-in;
+    animation-delay: 1s;/*after 1sec hover it start*/
+    animation-direction:linear;
+    /* animation-fill-mode: forwards;stop at end of width */
+}
+
+/* @keyframes vivek {
+    from {
+        width:10px;
+}
+to{
+   width: 500px;
+}
+} */
+@keyframes vivek{
+    0%{
+        width:0px;
+        background-color:green;
+    }
+    40%{
+        width:30%;
+        background-color: white;
+    }
+    100%{
+        width:100%;
+        background-color:orange;
+    }
+    }

@@ -1,0 +1,10 @@
+.wrapper{
+    height:200px;
+    width:400px;
+    background-image:linear-gradient(orange, white, green);
+    border:1px solid black;
+    overflow: hidden;
+    overflow: auto;
+    overflow: scroll;
+    overflow-x: hidden;
+}

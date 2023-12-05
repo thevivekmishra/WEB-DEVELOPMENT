@@ -1,0 +1,44 @@
+.gradient{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    font-size: larger;
+    padding: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient( orange,white);
+    background-image: linear-gradient(to right, orange,white);
+    background-image: linear-gradient(to left, orange,white);
+     background-image: linear-gradient(to bottom right, orange,white);
+     background-image: linear-gradient( to bottom left,orange,white);  
+}
+.grad{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    font-size: larger;
+    padding: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-image: linear-gradient( orange,white,green);
+}
+.gr{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    font-size: larger;
+    padding: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-image: radial-gradient( rgb(255, 167, 5),white,rgb(123, 217, 225));
+}
+.conical{
+    border: 1px solid black;
+    height: 200px;
+    width: 00px;
+    text-align: center;
+    font-size: larger;
+    padding: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-image: conic-gradient(orange,white);
+}

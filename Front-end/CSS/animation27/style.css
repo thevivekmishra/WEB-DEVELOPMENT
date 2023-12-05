@@ -1,0 +1,36 @@
+.container{
+    display:flex;
+    /* background-color: antiquewhite; */
+    background-image:linear-gradient(orange,white,rgb(110, 239, 110));
+    border: 2px solid black;
+    height: 500px;
+    width:400px;
+    padding:10%;
+    border-radius: 10px;
+
+}
+.box{
+    background-color:rgb(18, 178, 242);
+    border:1px solid black;
+    height: 100px;
+    width: 100px;
+   transition: all 1s ease-out 1s;
+
+   /* 1s show within 1sec it change color from aqua 
+   to orange ease show transition function and next 1s
+   represent after 1sec of hover it change color  */
+}
+.box:hover{
+    background-color:blue;
+    transform: rotate(45deg);
+    transform: translateX(300px) rotate(180deg) ;
+    
+    /* to apply above two effects we have to use "all" function
+    in box transition  if you use background-color it
+    only change background color it doent roatate  */
+
+    /* transform: translateX(300px);
+    transform: translateY(300px); */
+
+
+}

@@ -1,0 +1,18 @@
+div{
+    height:100px;
+    width:100px;
+    background-color:aqua;
+    border:1px solid black;
+}
+
+.box2{
+     border:1px solid black;
+     height:100px;
+     width:100px;
+     background-color:bisque;
+    transform: perspective(10px) translateZ(-10px);
+}
+
+.box3{
+   transform: perspective(10px) scaleZ(1) rotateX(15deg);
+}

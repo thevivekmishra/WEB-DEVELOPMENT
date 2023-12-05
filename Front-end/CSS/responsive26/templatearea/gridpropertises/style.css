@@ -1,0 +1,55 @@
+.container{
+    display:grid;
+    height: 600px;
+    width:500px;
+    background-color:yellow;
+    border:2px solid black;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    gap:10px;
+
+/* grid properties 1  justify content*/
+    justify-content:start;
+    justify-content: center;
+    justify-content: end;
+    justify-content: space-around;
+    
+ /* grid property 2 text align */
+ text-align: center;
+ text-align: end;
+ text-align: justify;
+ text-align: start;
+ text-align: right;
+
+ /* grid property 3 align items it align the items across
+ cross axis means y axis we can unserstand by inspectiong
+ it depends on no of rows and column  */
+
+align-items:end ;
+align-items: center;
+align-items: start;
+align-items: stretch;
+ /*defalut */
+} 
+
+
+/* align self used on child simple give id to the child or boxes
+and apply the property */
+
+#box1{
+align-self: last baseline;
+align-self: center;
+
+/* justify property also work on child element  */
+
+/* justify-self: end;
+justify-self: center; */
+}
+.box{
+    /* height:100px;
+    width:100px; */
+    border:1px solid black;
+    background-color: aqua;
+    
+
+}

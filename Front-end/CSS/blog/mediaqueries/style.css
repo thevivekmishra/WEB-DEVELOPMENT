@@ -1,0 +1,60 @@
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+} */
+.container{
+    display:grid;
+    border: 1px solid black;
+    background-color:yellow;
+    height:700px;
+    width:505px;
+    grid-template-rows: 40px 1fr 40px;
+    grid-template-columns: 100px 400px;
+    grid-gap:5px;
+    grid-template-areas:
+    "hd hd"
+    "side cont"
+    "ft ft";
+}
+.box{
+    background-color: aqua;
+    border:1px solid black;
+}
+
+#header{
+    grid-area: hd;
+}
+
+#sidebar{
+    grid-area: side ;
+}
+#container{
+    grid-area: cont;
+}
+#footer{
+    grid-area:ft;
+}
+/* we can adjust size according to the devices with
+the help of mediaquery generally it is written at
+bottom of the style  syntax is @media(max-width:123px)
+{ new properties} inspect the output and changee the size
+you will able to see changes */
+
+@media(max-width:300px){
+     /* (min-width: )and (max-width: ) use for multiple layout  */
+    .container{
+        grid-template-rows: 40px 1fr 1fr 40px;
+        grid-template-columns: 1fr;
+        grid-gap:5px;
+        grid-template-areas:
+        "hd"
+        "side"
+        "cont"
+        "ft";
+    }
+}
+
+
+
+

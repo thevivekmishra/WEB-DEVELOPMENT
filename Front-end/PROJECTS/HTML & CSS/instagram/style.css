@@ -1,0 +1,217 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+.wrapper{
+    width:500px;
+    margin:auto;
+    color:white;
+    background-color: black;
+    padding:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:15px;
+    font-weight: 200;
+}
+.navBar{
+ display: flex;
+ justify-content: space-between;
+}
+.topIcons{
+    display: flex;
+    gap:20px;
+}
+.feedbtn{
+    all:unset;
+    height: 19px;
+    width: 17px;
+    border:2px solid white;
+    border-radius: 5px;
+    background-color: black;
+    text-align: center;
+}
+
+.dp{
+    display: flex;
+    margin-top: 30px;;
+    justify-content: space-around;
+}
+.myDp{
+    border-radius: 50%;
+ }
+
+ .thread{
+    height: 25px;
+    width: 85px;
+    border-radius:20px;
+    text-align: center;
+    padding-top:2.5px;
+    background-color: rgba(128, 128, 128, 0.244);
+ }
+
+.posts {
+    position: absolute;
+    margin-left: -60px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.posts p{
+    text-align: center;
+    justify-content: center;
+    text-transform: capitalize;
+    
+}
+.followers{
+    position: absolute;
+    margin-left:140px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.followers p{
+    text-align: center;
+    justify-content: center;
+    text-transform: capitalize;  
+}
+.following{
+    margin-top: 10px;
+    text-align: center;
+}
+.following p{
+    text-align: center;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+.editbtn{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.editProfile{
+    height: 20px;
+    width: 200px;
+    background-color: rgba(128, 128, 128, 0.315);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: 800;
+    margin-right: 10px;
+}
+
+.shareProfile{
+    height: 20px;
+    width: 200px;
+    background-color: rgba(128, 128, 128, 0.315);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: 800;
+    gap:10px;
+    margin-right: 10px;
+}
+.addFriend{
+    height: 20px;
+    width:30px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.315);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: 800; 
+}
+
+.highlight {
+    display: flex;
+    margin-top: 25px;
+    overflow-x: scroll;
+    gap: 10px;
+    /* Hide the scroll bar and thumb */
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
+  }
+  
+   .highlight::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
+ .highlightBottom{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 100%;
+    height:35px;
+    /* border:1px solid white; */
+    position: relative;  /* so that we can set the breakline other wise it will take whole screen */
+} 
+
+.grid{
+  all:unset;
+}
+.tag{
+    all:unset;
+}
+ .breakline1{
+    height:3px;
+    width:50%;
+    background-color:grey;
+    display: none;
+    position: absolute;
+    margin-top:15px;
+    left: 0px;
+ }
+ .box1:hover .breakline1{
+    display: block;
+}
+
+ .breakline2{
+    height:3px;
+    width:50%;
+    background-color:grey;
+    position: absolute;
+    margin-top:15px;
+    display: none;
+    right:0px
+ }
+
+ .box2:hover .breakline2{
+    display: block;
+ }
+
+
+ .postContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+   
+}
+
+.yourPosts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap:3px; 
+    max-height: 758px;
+    overflow-y: scroll;
+    
+    scrollbar-width: none;
+    -webkit-scrollbar-width: none;
+}
+
+.yourPosts::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+.myPost {
+    max-width: 164.66px;
+    max-height: 164.66px;
+}

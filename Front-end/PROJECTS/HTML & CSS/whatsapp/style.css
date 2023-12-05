@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.wrapper{
+    height:600px;
+    width:350px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    border:1px solid black;
+    box-shadow: 8px 8px 15px   black;
+ 
+}
+.header{
+    height:90px;
+    width:100%;
+    background-color:#135f53;
+    justify-content: space-between;
+    
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+    margin:20px 10px;
+}
+.icons{
+    display: flex;
+    gap:20px;
+}
+h2{
+    color:#c7d1d9;
+    user-select: none;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:none;
+    margin: 0 20px;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.05rem;
+}
+
+.info p:hover{
+    color:black;
+}
+.profile1{
+    margin-top: 100px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left:-340px;
+    background-color: rgb(200, 255, 0);
+}
+
+.profile{
+   
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left:-340px;
+    background-color: rgb(200, 255, 0);
+    margin-top:13px;
+    
+}
+.profile1 p{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size:18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900px;
+    text-transform: capitalize;
+}
+
+h6{
+    display: flex;
+    margin-left: 300px;
+
+}
+.profile p{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size:18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900px;
+    text-transform: capitalize;
+}
+
+img{
+    height:50px;
+    width: 50px;
+    border-radius:50%;
+    position:absolute;
+
+}
+.chatbox{
+    display: flex;
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    margin-left:270px;
+    margin-top:-45px;
+    height: 50px;
+    width:50px;
+    background-color: green;
+    border-radius: 1rem;
+}
+.msg{
+    background-color: #101d25;
+}

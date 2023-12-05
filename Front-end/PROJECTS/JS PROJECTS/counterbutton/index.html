@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter button</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+  
+<div class="box">
+        <h2 id="heading">Increment & Decrement</h2>
+        <div class="line"></div>
+        <div class="icon">
+          <!-- fontawesome for icon -->
+            <button onclick="decrement()">
+               <i class="fa-solid fa-minus"></i>
+            </button>
+
+            <div id="counter">
+              0
+            </div>
+
+            <button onclick="increment()">
+              <i class="fa-solid fa-plus"></i>
+            </button>
+        </div>
+</div>
+   </div>
+    <script src="https://kit.fontawesome.com/beaa449087.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
