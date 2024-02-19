@@ -19,3 +19,7 @@ app.get('/link',(req,res)=>{
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
+ 
+app.listen(process.env.PORT,( )=> {
+  console.log(`example app listining on ${port}`)
+})
