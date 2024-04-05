@@ -1,0 +1,3 @@
+//with the help of multer express can communicate with the file and multer is used
+for uploading file
+//npm i express-fileupload
