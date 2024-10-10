@@ -1,8 +1,0 @@
-.company{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:gray;
-    gap: 10px;
-    margin-bottom: 25px;
-}
